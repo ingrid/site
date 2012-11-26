@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+</head>
+<body>
+<div id="container">
+
+  <div id="me">
+    <img src="images/me.png" height="150px"/>
+  </div>
+  <div id="content">
+    <p>
+      <a href="">about</a><br>
+      <a href="">resume</a><br>
+      <a href="">contact</a><br>
+    </p>
+  </div>
+  <br class="clear" /> 
+</div>
+<script type="text/javascript" src="jquery-1.7.js"/>
+<script type="text/javascript" src="underscore.js"/>
+<script type="text/javascript" src="backbone.js"/>
+</body>
+</html>

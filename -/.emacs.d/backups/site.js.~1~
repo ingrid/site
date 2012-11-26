@@ -1,0 +1,12 @@
+$(function(){
+    var contentModel = Backbone.Model.extend({
+        
+    });
+    var aboutModel = new contentModel({content:"Hi."});
+    var contentView = Backbone.View.extend({
+        tagName: "div",
+        render: function(){
+            this.html(model.content);
+        },
+    });
+});
