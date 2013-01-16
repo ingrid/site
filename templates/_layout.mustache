@@ -1,0 +1,24 @@
+{{> header }}
+<body>
+<div id="container">
+
+  <div id="nav">
+  {{#nav}}
+    <div class="nav" data-content="{{ page }}" style="background:#{{ color }}">
+      <a class="nav" href="{{ page }}.html">
+        {{ page }}
+      <br>
+    </div>
+  {{/nav}}
+  </div>
+  <div id="content">
+    {{{ content }}}
+  </div>
+
+  <br class="clear" /> 
+</div>
+</body>
+</html>
+
+{{> footer }}
+

@@ -1,0 +1,22 @@
+{
+	"site-title": "Welcome!",
+	"nav": [
+        {
+            "page" : "about",
+            "color" : "65B2DE"
+        },
+        {
+            "page" : "skills",
+            "color" : "A9D15F"
+        },
+        {
+            "page" : "projects",
+            "color" : "FFCB51"
+        },
+        {
+            "page" : "contact",
+            "color" : "DD4D42"
+        }
+
+	]
+}
